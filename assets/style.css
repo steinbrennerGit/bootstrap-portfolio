@@ -91,13 +91,3 @@ hr {
 #active-link {
     color: #4aaaa5;
 }
-
-#top-left, #top-right {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-#top-right {
-    text-align: right;
-}

@@ -17,7 +17,7 @@ hr {
 
 .btn {
     margin-top: 10px;
-    background-color: #666;
+    background-color: #cccccc;
     border: none;
 }
 
@@ -27,11 +27,11 @@ hr {
 
 .navbar {
     padding: 0;
-    border-bottom: 1px solid #666666;
+    border-bottom: 1px solid #cccccc;
     background-color: #fff;
 }
 
-.container {
+.container-fluid {
     max-width: 960px;
     padding-left: 0;
     padding-right: 0;
@@ -42,7 +42,7 @@ hr {
     padding-top: 20px;
     padding-bottom: 30px;
     margin: 90px auto;
-    border: 1px solid #666666;
+    border: 1px solid #cccccc;
     background-color: #fff;
 }
 
@@ -73,7 +73,7 @@ hr {
     position: fixed;
     z-index: 3;
     bottom: 0;
-    background-color: #666666;
+    background-color: #cccccc;
     border-top: 3px solid #4aaaa5;
 }
 
@@ -90,4 +90,46 @@ hr {
 
 #active-link {
     color: #4aaaa5;
+}
+
+@media only screen and (max-width: 1020px) {
+    .jumbotron {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .navbar {
+        padding: 0 3%;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+
+    .title-name {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar {
+        padding: 0;
+    }
+
+    .jumbotron {
+        margin-top: 126px;
+    }
+
+    #links {
+        width: 100%;
+        text-align: center;
+        background-color: white;
+    }
+
+}
+
+@media only screen and (max-width: 372px) {
+
+    .jumbotron {
+        margin-top: 174px;
+    }
+
 }
